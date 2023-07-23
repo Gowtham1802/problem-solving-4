@@ -86,3 +86,52 @@ console.log("After Sorting in Ascending Order");
  
 // Print Sorted Numeric Array
 console.log(marks);
+
+
+// 5.Write a function that finds the second smallest element in an array.
+
+
+let arr = [111, 13, 25, 9, 34, 1];
+let n = arr.length;
+// sorting the array using
+// in-built sort function 
+arr.sort();
+  
+// printing the desired element
+document.write("smallest element is "+arr[0],"</br>");
+document.write("second smallest element is "+arr[1],"</br>");
+
+
+// 6.Create a program that checks if a given string is a valid email address.
+
+
+// 7.Write a JavaScript function to reverse a string.
+
+// Function to reverse string
+function ReverseString(str) {
+    return str.split('').reverse().join('')
+}
+ 
+// Function call
+console.log(ReverseString("JavaScript"));
+
+
+// 8. Write a function to find the GCD (Greatest Common Divisor) of two numbers.
+
+
+
+// 9.Write a function that checks if all elements in an array are the same.
+
+let myArr = [1, 1, 1, 1];
+const allEqual =
+    myArr => myArr.every(v => v === myArr[0]);
+ 
+console.log(allEqual(myArr));
+
+
+// 10.Create a program that calculates the sum of all multiples of 3 and 5 below 1000.
+
+
+
+
+
